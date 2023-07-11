@@ -65,7 +65,7 @@ flex-shrink: 0;
    
 }
 .service{
-    padding : 20px;
+    padding 0px;
 }
 
 /* forth related styles */
@@ -95,32 +95,21 @@ flex-shrink: 0;
     background: #FFF;
     text-align: center;
 
-.background{
-    background-image: url(../Flower Asset/ rectangle 1.png);
+
 }
-.section6{
-    margin-top: 100px;
-    padding: 10px;
-    background-color: white;
+
+/* footer related styles */
+.footer{
+    background-color:#111010;
+    text-decoration-color: #3d3c3c;
+   
+    display: flex;
+    justify-content: space-around;
+    color: #FFF;
+    text-align: center;
 }
-.footer {
-    padding: 40px 0;
-    color: black;
-    background: black;
-    text align: center;
-  }
-  
-    footer h3 {
-        color: black;
-        font-size: 20px;
-        font-weight: bold;
-        margin-bottom: 20px;
+  .pink-color
+    {
+        color: #E55473;
     }
   
-  footer a {
-    color:black;
-  }
-  
-  footer p {
-    text align: center;
-  }
