@@ -6,11 +6,8 @@
 .banner{
     padding: 30px 30px 30px 150px;
 display: flex;
-margin ;}
-.banner .profile-pic{
-    width: 300px;
-    height: 300px;
-    align-items: center;
+justify-content:space-around;
+
 }
 
 .banner-button{
@@ -24,4 +21,77 @@ margin ;}
     font-weight: bold;
     border: none;
     cursor: pointer;
+}
+.section-title{
+
+}
+/* 2ns section*/
+
+/* 3rd section */
+.flowers{
+   color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: flex;
+    text-align: center;
+  }
+
+/* service related styles */
+.services-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    border-radius: 8px;
+background: rgba(39, 39, 39, 0.05);
+width: 1440px;
+height: 320px;
+flex-shrink: 0;
+   
+}
+.service{
+    padding : 20px;
+}
+
+/* forth related styles */
+.section4{
+    padding:150px;
+    display: flex;
+    justify-content:center;
+    background-color: rgba(229, 84, 115, 0.10);
+    
+}
+.section4-button{
+    margin-left: 50px;
+    margin-top: 50px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    background-color: #E55473;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+/* instagram related styles */
+.instagram{
+    padding: 5px;
+    margin : 5px;
+    background: #FFF;
+    text-align: center;
 }
